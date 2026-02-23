@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MOHAMED ALMOTAMAN| Frontend Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HERO SECTION ================= -->
+    <header id="hero">
+        <div class="hero-content">
+            <img src="moto.jpg.jpeg" alt="Profile Picture" class="profile-img">
+            <h1>MOHAMED ALMOTAMAN</h1>
+            <h2>Frontend Developer</h2>
+            <p>I build clean, responsive, and user-friendly web interfaces that solve real-world problems.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- ================= ABOUT SECTION ================= -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a passionate and motivated frontend developer currently studying Computer Science.
+            I focus on building modern, responsive, and user-friendly web applications using clean code
+            and best practices.
+        </p>
+
+        <p><strong>Program:</strong> Computer Science</p>
+        <p><strong>Year:</strong> Year II</p>
+
+        <p>
+            <strong>Career Goal:</strong>
+            To become a professional full-stack developer and contribute to building digital solutions
+            that solve real community problems in Rwanda and beyond.
+        </p>
+
+        <div class="about-skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Git & GitHub</span>
+            <span>Responsive Design</span>
+        </div>
+    </section>
+
+    <!-- ================= TECHNICAL SKILLS ================= -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">GitHub</div>
+            <div class="skill-card">Bootstrap</div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p><strong>Problem Solved:</strong> Manages student records digitally.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <p>A simple system that allows adding, viewing, and deleting student records using DOM manipulation.</p>
+            <a href="#">GitHub Link</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p><strong>Problem Solved:</strong> Creates a professional online identity.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <p>A responsive portfolio website for showcasing skills, projects, and contact information.</p>
+            <a href="#">GitHub Link</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Online Calculator App</h3>
+            <p><strong>Problem Solved:</strong> Quick and easy calculations.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <p>A calculator application using JavaScript and DOM manipulation.</p>
+            <a href="#">GitHub Link</a>
+        </div>
+    </section>
+
+    <!-- ================= GPA CALCULATOR ================= -->
+    <section id="calculator">
+        <h2>Student GPA Calculator</h2>
+        <p>Enter your course marks to calculate GPA and classification.</p>
+
+        <div class="calculator-box">
+            <input type="number" id="c1" placeholder="Course 1 Marks">
+            <input type="number" id="c2" placeholder="Course 2 Marks">
+            <input type="number" id="c3" placeholder="Course 3 Marks">
+            <button onclick="calculateGPA()">Calculate GPA</button>
+
+            <p id="gpa-result"></p>
+        </div>
+    </section>
+
+    <!-- ================= CV SECTION ================= -->
+    <section id="cv">
+        <h2>My CV</h2>
+        <p>Download my CV to view my academic background, skills, and experience.</p>
+
+        <a href="assets/cv/mycv.pdf" download class="btn">Download CV</a>
+
+        <div class="cv-preview">
+            <h3>MOHAMED ALMOTAMAN</h3>
+            <p>Frontend Developer</p>
+            <p>Email: MOHAMED ALMOTAMAN@email.com</p>
+            <p>Phone: +250 793 573 933</p>
+            <p>Skills: HTML, CSS, JavaScript, GitHub</p>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email:MOHAMED ALMOTAMAN@email.com</p>
+        <p>Phone: +250 793 593 933</p>
+        <p>GitHub: github.com/yourusername</p>
+        <p>LinkedIn: linkedin.com/in/yourusername</p>
+
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>© 2026 MOHAMED ALMOTAMAN | All Rights Reserved</p>
+    </footer>
+
+    <!-- ================= JS LINK ================= -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
